@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logos a , .footer a{
+    color: red;
+    font-size: 2rem;
+}
+.logos img{
+    width: 250px;
+}
+.srcbar input{
+    width: 400px;
+    height: 3rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.srcbar ::placeholder{
+    font-size: 20px;
+
+}
+.bar{
+    height: 3rem;
+    width: 70px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background: url(images/background.jpg) fixed no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 5rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    opacity: 90%;
+}
+li{
+    font-size: 50px;
+    list-style: none;
+    padding: 5px;
+}
+li a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 12px;
+    font-size: larger;
+    color: blue;
+}
+.writeup{
+    background-color: yellow;
+    opacity: 50%;
+    width: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.h21{
+    font-size: 50px;
+    text-align: center;
+}
+.first{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+.toys{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.toys img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 50%;
+}
+.Products{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    gap: 100px;
+    padding: 20px;
+}
+.Products img{
+    height: 50vh;
+    width: 100%;
+}
+.h2{
+    color: blue;
+    font-size: larger;
+    margin-top: 50px;
+}
+.top-selling{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px 20px;
+    padding: 20px;
+}
+.top-selling img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 50%;
+    border: blue solid 1px;
+}
+.top-selling a{
+    text-align: center;
+    font-size: larger;
+    color: blue;
+    text-decoration: none;
+}
+.h61{
+    color: red;
+}
+.freegifts{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+.freegifts img{
+    width: 100%;
+    height: 35vh;
+    border: blue solid 1px;
+    border-radius: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+}
+.elaborate{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 100px;
+    padding-left:  15rem;
+    padding-right:  15rem;
+    margin-top: 50px;
+}
+.rant img{
+    width: 100%;
+    height: 50vh;
+}
+.rant{
+    background-color: lightblue;
+}
+.ride{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+.h1-div{
+    background-color: rgba(127, 255, 212,0.3);
+    height: 50vh;
+    position: absolute;
+    width: 100%;
+}
+.rant h1{
+    color: red;
+}
+.rant h3{
+    padding: 7px;
+    color: blue;
+}
+.ride  h1{
+    width: 100%;
+    position: absolute;
+    top:40%;   
+    left: 40%;
+    transform: translate(-50% -50%);
+}
+button{
+    border-radius: 50px;
+    padding: 20px;
+}
+button a{
+    text-decoration: none;
+color: red;
+}
+.only{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer img{
+    width: 50px;
+}
+@media only screen and (max-width: 600px) {
+.logos{
+    text-align: center;
+    width: 100%;
+}
+ul{
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+    background-color: aqua;   
+}
+ul a{
+    font-size: 20px;
+    padding: 2px;
+}
+.srcbar{
+    display: none;
+}
+.bar{
+    border: 0;
+}
+.navbar{
+    background-image: none;
+    background-color: blue;
+    width: 100%;
+    height: 30vh;
+    margin-top: 20px;
+}
+.writeup{
+    width: 100%;
+    height: 15vh;
+}
+.h21{
+    font-size: 30px;
+    padding: 0;
+}
+.first{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.first img{
+    width: 50%;
+    height: 60px;
+}
+.toys{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+    gap: 10px 10px;
+}
+.toys img{
+    width: 100%;
+    height: 20vh;
+}
+.last{
+    display: none;
+}
+.toys img{
+    border-radius: 2%;
+}
+.h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.top-selling, .freegifts{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10 px 10px;
+}
+.top-selling img, .freegifts img{
+    width: 100%;
+    height: 25vh;
+}
+.elaborate{
+    display: none;
+}
+.padding{
+    padding: 10px;
+    text-align: center;
+}
+.Products{
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.Products img{
+    width: 100%;
+    height: 25vh;
+}
+}
+
+
