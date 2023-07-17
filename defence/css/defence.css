@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslategray;
+}
+.logo a{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.mainlogo{
+    display: flex;
+    justify-content: center;
+}
+.mainlogo img{
+    width: 250px;
+}
+.navbar{
+    background-color: limegreen;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.navbar a:hover{
+    color: maroon;
+}
+.navbar li{
+    list-style: none;
+}
+.name{
+    display: none;
+}
+.grid-view, .ekeh, .bourdex{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px ;
+    margin-top: 50px;
+}
+.grid-view img, .ekeh img, .bourdex img{
+    width: 100%;
+    height: 30vh;
+}
+.grid-view > div, .bourdex > div, .ekeh > div{
+    border: dotted 2px maroon;
+    border-bottom: limegreen dotted 2px;
+    border-radius: 25px;
+    padding: 1rem;
+}
+.grid-view a, .ekeh a, .bourdex a{
+    text-decoration: none;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.izuu{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
+}
+.izuu img{
+    width: 100%;
+    border-radius: 50px;
+}
+.grid-view a:hover{
+    color: limegreen;
+    text-decoration: underline;
+}
+.izuu > div{
+    margin-top: 50px;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkolivegreen;
+}
+.logo a{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.mainlogo{
+    display: flex;
+    justify-content: center;
+}
+.mainlogo img{
+    width: 250px;
+}
+.navbar{
+    background-color: limegreen;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.navbar a:hover{
+    color: maroon;
+}
+.navbar li{
+    list-style: none;
+}
+.picture{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture img{
+    width: 70%;
+    height: 70vh;
+    border-radius: 25px;
+}
+.header h1{
+    text-align: center;
+}
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news h2{
+    margin-top: 100px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 70%;
+    color: whitesmoke;
+}
